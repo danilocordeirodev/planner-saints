@@ -71,3 +71,6 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+database diagram -> https://dbdiagram.io/d/planner-saints-diagram-663d29cf9e85a46d557221e8
