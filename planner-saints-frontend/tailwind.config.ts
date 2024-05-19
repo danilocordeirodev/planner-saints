@@ -149,8 +149,8 @@ const config: Config = {
 			},
 			backgroundImage: {
 				ballanceDashboard: 'url()',
-				ellispsisModeCarInterface: '',
-				homeButton: '',
+				ellispsisModeCarInterface: 'url()',
+				homeButton: 'url()',
 				smartHomeDropzone: ''
 			}
 		},
@@ -177,16 +177,16 @@ const config: Config = {
 			brandLinear: '#868CFF',
 			transparent: 'transparent',
 			gray: {
-				50: '#EFEBFF',
-				100: '#E9E3FF',
-				200: '#422AFB',
-				300: '#422AFB',
-				400: '#7551FF',
-				500: '#422AFB',
-				600: '#3311DB',
-				700: '#02044A',
-				800: '#190793',
-				900: '#11047A'
+				50: '#F5F6FA',
+				100: '#EEF0F6',
+				200: '#DADEEC',
+				300: '#C9D0E3',
+				400: '#B0BBD5',
+				500: '#B5BED9',
+				600: '#A3AED0',
+				700: '#707eae',
+				800: '#2D396B',
+				900: '#1B2559'
 			},
 			navy: {
 				50: '#EFEBFF',
@@ -349,14 +349,14 @@ const config: Config = {
 				900: '#070f2e'
 			},
 			brand: {
-				50: '#EFEBFF',
-				100: '#E9E3FF',
-				200: '#422AFB',
-				300: '#422AFB',
+				50: '#E9E3FF',
+				100: '#C0B8FE',
+				200: '#A195FD',
+				300: '#8171FC',
 				400: '#7551FF',
 				500: '#422AFB',
 				600: '#3311DB',
-				700: '#02044A',
+				700: '#2111A5',
 				800: '#190793',
 				900: '#11047A'
 			},
