@@ -6,6 +6,8 @@ export interface IAuthForm {
 }
 
 export interface IUser extends IBase {
+	name?: string
+	email?: string
 	workInterval?: number
 	breakInterval?: number
 	intervalsCount?: number
