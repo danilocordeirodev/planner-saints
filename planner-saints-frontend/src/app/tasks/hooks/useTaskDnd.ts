@@ -1,5 +1,7 @@
 import { DropResult } from '@hello-pangea/dnd'
 
+import { FILTERS } from '../columns.data'
+
 import { useUpdateTask } from './useUpdateTasks'
 
 export function useTaskDnd() {
@@ -21,6 +23,16 @@ export function useTaskDnd() {
 			})
 			return
 		}
+
+		const newCreatedAt = FILTERS[destinationColumnId].format()
+
+		updateTask({
+			id: result.draggableId,
+			data: {
+				createdAt: newCreatedAt,
+				isCompleted: false
+			}
+		})
 	}
 
 	return {}
