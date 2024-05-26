@@ -14,7 +14,6 @@ export default function TimeBlockingPage() {
   return (
     <div>
       <Heading title='Time blocking' />
-      <TimeBlockingList />
       <TimeBlocking />
     </div>
   )
